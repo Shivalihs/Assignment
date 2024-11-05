@@ -1,0 +1,115 @@
+/* Use the same styling for general elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fc;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 900px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-panel {
+    background-color: #5865F2;
+    color: white;
+    flex: 1;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.left-panel .logo {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.left-panel h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.left-panel .social-icons a {
+    margin: 10px;
+    display: inline-block;
+}
+
+.right-panel {
+    flex: 1.5;
+    padding: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 300px;
+}
+
+.form-container h2 {
+    font-size: 1.8em;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.form-container p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+form label {
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #333;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.register-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #5865F2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+.login-link a {
+    color: #5865F2;
+    text-decoration: none;
+    font-weight: 500;
+}
